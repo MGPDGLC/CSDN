@@ -6,9 +6,9 @@ void prime(int n)
 	int i, j, k;
 	for (i = 2; i < n + 1; i++)
 		primes[i] = true;
-	for (j = 2; j < n + 1; ++j)
+	for (j = 2; j < n + 1; j++)
 		if (primes[j])
-			for (k = 2; j*k <= n; ++k)
+			for (k = 2; j*k <= n; k++)
 				primes[j*k] = false;
 	for (int t = 2; t < n + 1; t++)
 		if (primes[t])

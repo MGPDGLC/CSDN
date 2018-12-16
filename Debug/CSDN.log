@@ -1,2 +1,4 @@
-﻿  41.cpp
+﻿  67.cpp
+d:\mgpd\csdn\csdn\csdn\67.cpp(10): warning C4018: “<=”: 有符号/无符号不匹配
+d:\mgpd\csdn\csdn\csdn\67.cpp(21): warning C4101: “k”: 未引用的局部变量
   CSDN.vcxproj -> D:\MGPD\CSDN\CSDN\Debug\CSDN.exe
